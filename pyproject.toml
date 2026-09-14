@@ -1,0 +1,25 @@
+[project]
+name = "cust-churn-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nagesh Sarode", email = "nageshsarode52@gmail.com" }
+]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.63.0",
+    "tensorboard>=2.21.0",
+    "tensorflow>=2.21.0",
+]
+
+[project.scripts]
+cust-churn-prediction = "cust_churn_prediction:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
