@@ -65,6 +65,4 @@ pyproject.toml            Project metadata and dependencies
 uv.lock                   Locked dependency versions
 ```
 
-## Notes
 
-This project is intended for educational and demonstration purposes. Model predictions should not be used as the sole basis for financial or customer-retention decisions.
